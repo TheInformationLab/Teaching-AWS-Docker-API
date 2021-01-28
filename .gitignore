@@ -2,3 +2,4 @@ secrets.txt
 */node_modules
 */script.*
 */bucket_policy.json
+*/.*

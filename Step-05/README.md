@@ -53,3 +53,19 @@ app.use(bodyParser.json());
 ```
 
 12. Create route for the numbers & add JSON with random numbers
+
+# Step 2: Create Docker Container
+
+- Create .dockerignore file and add node_modules
+
+Create image:
+
+```
+docker build -t express-app .
+```
+
+Create container:
+
+```
+docker run -d -p 8082:3000 --name factapp express-app:latest
+```
