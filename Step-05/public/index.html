@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Numbers</title>
+  </head>
+  <body>
+    <h1>Get a random fact by entering a number</h1>
+
+    <input type="number" id="randomValue" value="42" />
+    <button id="factBtn">Get fact!</button>
+    <p id="factText"></p>
+
+    <script>
+      const btn = document.getElementById("factBtn");
+      const text = document.getElementById("factText");
+      btn.addEventListener("click", async () => {
+        let val = document.getElementById("randomValue").value;
+        if (val) {
+          text.innerHTML = "";
+          //   make API request
+          const res = await fetch(`http://numbersapi.com/${val}`);
+          const fact = await res.text();
+          text.innerHTML = fact;
+          console.log(fact);
+        } else {
+          text.innerHTML = "We need a number";
+        }
+      });
+
+      // example how to structure the fetch request
+      async function getData() {
+        const number = 2;
+        const res = await fetch(`/number/${number}`);
+        const facts = await res.json();
+        console.log(facts);
+      }
+      getData();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "number": 1,
+    "fact": "This is a fact about number 1"
+  },
+  {
+    "number": 2,
+    "fact": "This is a fact about number 2"
+  },
+  {
+    "number": 3,
+    "fact": "This is a fact about number 3"
+  }
+]
