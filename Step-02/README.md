@@ -2,7 +2,7 @@
 
 mkdir public
 
-touch index.html
+touch index.html (echo for Windows)
 
 # Step 2: Add basic content into website
 

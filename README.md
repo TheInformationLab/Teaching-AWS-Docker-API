@@ -1,4 +1,6 @@
-# Learning about Docker, AWS and APIs
+# Day One: Learning about TS on AW & AWS RDS
+
+# Day Two: Learning about Docker, AWS and APIs
 
 This repository is broken down into several steps. Each building upon the other one.
 
