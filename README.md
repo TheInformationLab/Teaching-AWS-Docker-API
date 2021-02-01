@@ -1,4 +1,4 @@
-# Day One: Learning about TS on AW & AWS RDS
+# Day One: Learning about the AWS Console, AWS CLI, RDS, and Tableau Server on AWS
 
 # Day Two: Learning about Docker, AWS and APIs
 
