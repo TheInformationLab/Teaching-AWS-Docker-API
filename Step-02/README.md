@@ -6,7 +6,9 @@ touch index.html (echo for Windows)
 
 # Step 2: Add basic content into website
 
-We have this amazing website that gives us random facts when you type in a number. And we want to deploy this with Docker. Let's first look how we can create an image of it and run it locally
+We have this amazing website that gives us random facts when you type in a number. And we want to deploy this with Docker. Let's first look how we can create an image of it and run it locally.
+
+Here we can also put our embedded Tableau dashboard if you want.
 
 # Step 3: Create Dockerfile
 
