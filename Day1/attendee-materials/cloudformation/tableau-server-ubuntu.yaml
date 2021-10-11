@@ -312,7 +312,7 @@ Resources:
       SecurityGroupIds:
         - !Ref ServerSecurityGroup
       SubnetId:
-        Fn::ImportValue: !Sub ${InfraStackName}-PublicSubnet1
+        Fn::ImportValue: !Sub ${InfraStackName}-public-subnet-1
       InstanceType: !Ref InstanceType
       IamInstanceProfile: !Ref TableauServerInstanceProfile
       ImageId: !FindInMap
@@ -400,7 +400,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       VpcId:
-        Fn::ImportValue: !Sub ${InfraStackName}-VPC
+        Fn::ImportValue: !Sub ${InfraStackName}-vpc
       GroupDescription:
         Enable HTTP access via port 80 and HTTPS access on port 8850,
         and SSH access from the provided network CIDR
