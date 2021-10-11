@@ -23,7 +23,7 @@
 - Open a new Terminal in VS Code
 - Switch the terminal from `powershell` to `cmd`
 - Run `aws s3 ls` again to test that everthing is still working
-- Run the `cd attendee-materials` command
+- Run the `cd Day1\attendee-materials` command
 
 ### Running AWS Commands
 
