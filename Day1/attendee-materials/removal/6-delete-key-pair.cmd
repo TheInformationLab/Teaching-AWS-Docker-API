@@ -1,0 +1,1 @@
+aws ec2 delete-key-pair --key-name <YOUR-INITIALS>-<YOUR-COHORT>-aws-b2s-key-pair
