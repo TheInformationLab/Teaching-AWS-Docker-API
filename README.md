@@ -9,3 +9,4 @@ This repository is broken down into several steps. Each building upon the other 
 - [Step-03: How to use S3 to host the website - using the AWS CLI](Day2/Step-03/README.md)
 - [Step-04: Push this image to AWS ECR and use ECS](Day2/Step-04/README.md)
 - [Step-05: Create an API that mirrors the API used in Step 3 and make it a Docker Image](Day2/Step-05/README.md)
+- [Step-06: Install a Single Node Tableau Server on AWS](Day2/Step-05/README.md)
