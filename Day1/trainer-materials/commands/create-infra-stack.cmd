@@ -1,3 +1,3 @@
 aws cloudformation create-stack ^
     --stack-name b2s-dev-infra ^
-    --template-body file://cloudformation\infrastructure.yaml
+    --template-body file://Day1\trainer-materials\cloudformation\infrastructure.yaml
