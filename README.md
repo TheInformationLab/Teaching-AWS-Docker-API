@@ -1,7 +1,7 @@
 # Day One: Learning about the AWS Console, AWS CLI, RDS, and Tableau Server on AWS
 
 - [Attendee Materials](Day1/attendee-materials)
-- [Trainer Materials](Day1/trainer-materials-materials)
+- [Trainer Materials](Day1/trainer-materials)
 
 # Day Two: Learning about Docker, AWS and APIs
 
